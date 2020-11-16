@@ -46,7 +46,7 @@ namespace Kontroltoo
             Grid.SetColumnSpan(lbl, 2);
 
             //Timepicker------------------------------------------------------------------------------------------------------------------------------------
-            TimePicker time1 = new TimePicker
+            time1 = new TimePicker()
             {
                 Time = new TimeSpan(18, 0, 0),
                 
@@ -77,14 +77,76 @@ namespace Kontroltoo
         {
             if (e.PropertyName == TimePicker.TimeProperty.PropertyName)
             {
-                var vremja = time1.Time.Hours;
-                if (vremja == 12)
+                var time = time1.Time.Hours;
+                if (time == 0)
                 {
-                    img.Source = "Beg.jpg";
-                    lbl.Text = "You choose 12";
+                    lbl.Text = "Сплю";
+                    img.Source = "sleep.jpg";
                 }
+                else if (time == 1)
+                {
+                    lbl.Text = "Бег";
+                    img.Source = "Beg.jpg";
+                }
+                else if (time == 2)
+                {
+                    lbl.Text = "Обед";
+                    img.Source = "Obed.jpg";
+                }
+                else if (time == 3)
+                {
+                    lbl.Text = "Работа";
+                    img.Source = "Rabota.jpg";
+                }
+                else if (time == 4)
+                {
+                    lbl.Text = "Сон";
+                    img.Source = "sleep.jpg";
+                }
+                else if (time == 5)
+                {
+                    lbl.Text = "Сон кота";
+                    img.Source = "Smotrtnasonkota.jpg";
+                }
+                else if (time == 6)
+                {
+                    lbl.Text = "Типо того";
+                    img.Source = "sonnimer2.jpg";
+                }
+                else if (time == 7)
+                {
+                    lbl.Text = "Суп";
+                    img.Source = "sup.jpg";
+                }
+                else if (time == 8)
+                {
+                    lbl.Text = "Завтрак";
+                    img.Source = "Zavtrak.jpg";
+                }
+                else if (time == 9)
+                {
+                    lbl.Text = "Тренеровка";
+                    img.Source = "trenerovka.jpg";
+                }
+                else if (time == 10)
+                {
+                    lbl.Text = "Человек идет домой";
+                    img.Source = "tselidetdomoi.jpg";
+                }
+                else if (time == 11)
+                {
+                    lbl.Text = "Уставший человек";
+                    img.Source = "Ystavshijtsel.jpg";
+                }
+                else if (time == 12)
+                {
+                    lbl.Text = "Ужин";
+                    img.Source = "Yzin.jpg";
+                }
+               
             }
         }
-        //Functions------------------------------------------------------------------------------------------------------------------------------------
+
     }
 }
+    
