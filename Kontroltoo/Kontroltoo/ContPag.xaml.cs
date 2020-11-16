@@ -83,62 +83,62 @@ namespace Kontroltoo
                     lbl.Text = "Сплю";
                     img.Source = "sleep.jpg";
                 }
-                else if (time == 1)
+                 if (time == 1)
                 {
                     lbl.Text = "Бег";
                     img.Source = "Beg.jpg";
                 }
-                else if (time == 2)
+                if (time == 2)
                 {
                     lbl.Text = "Обед";
                     img.Source = "Obed.jpg";
                 }
-                else if (time == 3)
+                 if (time == 3)
                 {
                     lbl.Text = "Работа";
                     img.Source = "Rabota.jpg";
                 }
-                else if (time == 4)
+                 if (time == 4)
                 {
                     lbl.Text = "Сон";
                     img.Source = "sleep.jpg";
                 }
-                else if (time == 5)
+                 if (time == 5)
                 {
                     lbl.Text = "Сон кота";
                     img.Source = "Smotrtnasonkota.jpg";
                 }
-                else if (time == 6)
+                 if (time == 6)
                 {
                     lbl.Text = "Типо того";
                     img.Source = "sonnimer2.jpg";
                 }
-                else if (time == 7)
+                 if (time == 7)
                 {
                     lbl.Text = "Суп";
                     img.Source = "sup.jpg";
                 }
-                else if (time == 8)
+                 if (time == 8)
                 {
                     lbl.Text = "Завтрак";
                     img.Source = "Zavtrak.jpg";
                 }
-                else if (time == 9)
+                 if (time == 9)
                 {
                     lbl.Text = "Тренеровка";
                     img.Source = "trenerovka.jpg";
                 }
-                else if (time == 10)
+                 if (time == 10)
                 {
                     lbl.Text = "Человек идет домой";
                     img.Source = "tselidetdomoi.jpg";
                 }
-                else if (time == 11)
+                 if (time == 11)
                 {
                     lbl.Text = "Уставший человек";
                     img.Source = "Ystavshijtsel.jpg";
                 }
-                else if (time == 12)
+                 if (time == 12)
                 {
                     lbl.Text = "Ужин";
                     img.Source = "Yzin.jpg";
